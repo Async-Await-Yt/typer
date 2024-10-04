@@ -1,0 +1,13 @@
+#game-over{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+
+    .score{
+        font-size: 10rem;
+        color: var(--primary);
+    }
+}

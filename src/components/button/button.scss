@@ -1,0 +1,18 @@
+button{
+    min-width: 20vw;
+    width: fit-content;
+    padding: 1em 2em;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    border-radius: 8px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--bg);
+    background: var(--primary);
+
+    &:active{
+        scale: 0.9;
+    }
+}

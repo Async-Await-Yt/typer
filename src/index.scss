@@ -1,0 +1,29 @@
+:root {
+    --bg: aliceblue;
+    --primary: #2B3467;
+    --bottom:#E94560;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 1px solid black;
+    font-family: sans-serif;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    user-select: none;
+
+}
+
+#root {
+    background: var(--bg);
+    height: 100vh;
+}
+
+#icon {
+    scale: 1.8;
+    color: #E94560;
+}
